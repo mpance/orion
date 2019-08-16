@@ -378,6 +378,48 @@ openJobs.jpmorganAIPlatformSeniorBackendEngineer = [
 
 ]
 
+openJobs.jpmorganAIEngineeringSeniorMachineLearningEngineer = [
+/C\+\+/i,
+/inference workflow/i,
+/training pipeline/i,
+/Python/i,
+/R/i,
+/deep learning/i,
+/deep-learning/i,
+/CNN/i,
+/RNN/i,
+/LSTM/i,
+/NLP/i,
+/natural language processing/i,
+/Computer Vision/i,
+/CV/i,
+/Speech recognition/i,
+/reinforcement learning/i,
+/ranking and recommendation/i,
+/time series/i,
+/tensorflow/i,
+/caffe/i,
+/pytorch/i,
+/keras/i,
+/mxnet/i,
+/scikit-learn/i,
+/ETL pipeline/i,
+/ETL/i,
+/data processing/i,
+/real-time data/i,
+/cloud computing/i,
+/aws/i,
+/amazon web services/i,
+/docker/i,
+/kubernetes/i,
+/big data/i,
+/hadoop/i,
+/hive/i,
+/spark/i,
+/kafka/i,
+/distributed system/i
+]
+
 openJobs.inceptioSeniorSoftwareEngineerLocalizationMultipleSensorFusion = [
 /C\+\+/i,
 /sensor fusion/i,
@@ -480,7 +522,7 @@ function matchRequirements(jobRequirements, scrapedData) {
 
 }
 /*
-This function naively gets the years of working experience from candidates scraped profile data
+This function naively gets the years of working experience from candidates' scraped profile data
 */
 
 function getYrsOfExperienceNaive(scrapedData) {
