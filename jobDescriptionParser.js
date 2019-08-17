@@ -527,7 +527,7 @@ This function naively gets the years of working experience from candidates' scra
 
 function getYrsOfExperienceNaive(scrapedData) {
 
-	var patternMatch = /[1-30] yr/g;
+	var patternMatch = /[1-9] yr/g;
 
 	var stringArr = scrapedData.match(patternMatch);
 	var yrs = 0;
